@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+  }
+  
+.hero-title{
+    color: white;
+}
+.intro{
+    height: 100vh;
+}
+
+  /* canvas {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    max-height: 100vh;
+    max-width: 100vw;
+    transform: translate(-50%, -50%);
+  } */
+
+  .intro canvas{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .intro h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 7rem;
+    color: white;
+    z-index: 1;
+  }
+
+  .intro{
+      background-color: #000;
+  }
+
+  section{
+      height: 100Vh;
+      color: black;
+  }
+
+  section{
+      padding-top: 20rem;
+      text-align: center;
+      font-size: 7rem;
+  }
