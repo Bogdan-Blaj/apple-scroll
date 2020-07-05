@@ -11,6 +11,9 @@
 .hero-title{
     color: white;
 }
+.hero-p{
+    color: white;
+}
 .intro{
     height: 100vh;
 }
@@ -38,6 +41,15 @@
     font-size: 7rem;
     color: white;
     z-index: 1;
+  }
+  .intro p{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 2rem;
+    color: white;
+    z-index: 2;
   }
 
   .intro{
