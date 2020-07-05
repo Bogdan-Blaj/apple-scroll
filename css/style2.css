@@ -16,6 +16,10 @@
 }
 .intro{
     height: 100vh;
+    width: 100%;
+    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
 }
 
   /* canvas {
@@ -66,3 +70,8 @@
       text-align: center;
       font-size: 7rem;
   }
+
+  /* #hero-lightpass{
+      width: 100%;
+      height: 100%;
+  } */
